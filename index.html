@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <style>
+        /* Definición de la paleta de colores */
+        :root {
+            --color-fondo-general: #F6F5F2;  /* Color del fondo de toda la página */
+            --color-fondo-seccion1: #FFFFFF; /* Fondo del logo */
+            --color-fondo-seccion2: #FFEFEF; /* Fondo de la foto principal */
+            --color-fondo-seccion3: #F3D0D7; /* Fondo de redes sociales y contacto */
+            --color-fondo-seccion4: #F0EBE3; /* Fondo del carrusel */
+            --color-texto: #000000;           /* Color del texto */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-fondo-general);
+            color: var(--color-texto);
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        /* Estilos para las secciones con fondo de color */
+        .section {
+            padding: 20px 0;
+        }
+        .section-logo {
+            background-color: var(--color-fondo-seccion1);
+        }
+        .section-photo {
+            background-color: var(--color-fondo-seccion2);
+        }
+        .section-social {
+            background-color: var(--color-fondo-seccion3);
+        }
+        .section-carousel {
+            background-color: var(--color-fondo-seccion4);
+        }
+
+        /* Estilos del logo principal */
+        .main-logo img{
+            max-width: 300px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Estilos de la foto principal */
+        .main-photo img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0;
+            border-radius: 10px;
+        }
+
+        /* Estilos de los iconos de redes sociales */
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px 0;
+        }
+        .social-media img {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .contact-link a {
+            font-size: 1.2em;
+            color: var(--color-texto);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Estilos del carrusel (básico) */
+        .carousel-container {
+            width: 100%;
+            overflow-x: scroll;
+            white-space: nowrap;
+            padding: 10px 0;
+        }
+        .carousel-container img {
+            width: 120px;
+            height: 120px;
+            margin-right: 10px;
+            object-fit: cover;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        /* Estilos del pie de página */
+        .footer {
+            padding: 20px 0;
+            color: var(--color-texto);
+            font-size: 0.8em;
+            border-top: 1px solid var(--color-texto);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="section section-logo">
+            <div class="main-logo">
+                <img src="images/logo.jpg" alt="Logo de la Marca">
+            </div>
+        </div>
+
+        <div class="section section-photo">
+            <div class="main-photo">
+                
+            </div>
+        </div>
+
+        <div class="section section-social">
+            <div class="social-media">
+                <a href="https://www.facebook.com/people/Magnolia-Event-Services/100076163467416/?mibextid=wwXIfr&rdid=LBhPMqmAaD5liEnR&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15s6XpXTRH%2F%3Fmibextid%3DwwXIfr" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/magnolia_eventservices/?igsh=eG42ZTF2emlpZWY1#" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://www.tiktok.com/@tunombredeusuario" target="_blank"><img src="images/tik-tok.png" alt="TikTok"></a>
+                <a href="https://api.whatsapp.com/send/?phone=14329943042&text=Hola%252C+quiero+cotizar+un+evento&type=phone_number&app_absent=0&source_surface=21&fbclid=PAQ0xDSwMS9Y5leHRuA2FlbQIxMAABp4sfJVgk7-ciVq-5pS-fJx9kgte9MS0cvbABS66sPaNNmR_CCYXfswDkNpSO_aem_06AJQh-pBLUKP91X169ltg" target="_blank"><img src="images/whatsapp.png" alt="Facebook"></a>
+            </div>
+            <div class="contact-link">
+                <a href="tel:+14329943042">CONTACTO</a>
+            </div>
+        </div>
+
+        <div class="section section-carousel">
+            <div class="carousel-container">
+                <img src="images/foto1.jpeg" alt="Foto 1">
+                <img src="images/foto2.jpeg" alt="Foto 2">
+                <img src="images/foto3.jpeg" alt="Foto 3">
+                <img src="images/foto4.jpeg" alt="Foto 4">
+                <img src="images/foto5.jpeg" alt="Foto 5">
+                <img src="images/foto6.jpeg" alt="Foto 6">
+                <img src="images/foto7.jpeg" alt="Foto 7">
+</div>
